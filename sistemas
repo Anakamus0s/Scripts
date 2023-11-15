@@ -1,0 +1,22 @@
+#!/bin/bash
+
+/usr/bin/caja --no-desktop &
+
+# Espera un momento
+sleep 2
+
+# Ejecuta dos instancias de mate-terminal
+mate-terminal &
+mate-terminal &
+
+# Espera un momento
+sleep 2
+
+# Ejecuta Google Chrome
+/usr/bin/google-chrome-stable %U &
+
+sleep 2
+
+# Ejecuta virt-manager
+virt-manager &
+

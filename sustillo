@@ -1,0 +1,11 @@
+#!/bin/bash
+cd ~/Escritorio/Scripts &
+
+./bromita &
+
+sleep 12
+
+cd ~/Escritorio/Scripts &
+
+./no_sustos &
+
